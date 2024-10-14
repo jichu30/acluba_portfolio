@@ -1,8 +1,10 @@
 *{
-    text-decoration: none;  
     margin: 0;
     padding: 0;
     color: aliceblue;
+    box-sizing: border-box;
+    text-decoration: none;
+   
 }
 
 .section_street{
@@ -12,18 +14,8 @@
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-
-
-
 }
 
-.ig{
-    width: 20px;
-    
-}
-.fb{
-    width: 20px;
-}
 .navbar{
     background-color: #333;
     padding-left: 15px;
@@ -32,58 +24,13 @@
     
 }
 
-.dot{
-    color: #ffbd59;
-}
-
 .navdiv{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    
-
 }
-
-.navul{
-    font-family: "Rubik", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: <weight>;
-    font-style: normal;
-    list-style: none;
-   
-
-}
-
-
-
-
-.homee, .aboutme, .igmfacebook1,.imginstagram, .vertical{
-    display: inline-block;
-    padding-top: 5px;
-    
-    
-   
-    
-}
-.vertical{
-    margin-right: 20px;
-}
-
-.homee,.aboutme{
-    margin-right: 20px;
-    font-size: 16px;
-    
-    
-}
-.igmfacebook1,.imginstagram{
-    margin-right: 10px;
-    
-    
-}
-
 
 .logo{
-    
     font-size: 20px;
     font-family: "Rubik Mono One", serif;
     font-weight: 400;
@@ -92,6 +39,48 @@
     padding-left: 15px;
 }
 
+.navul{
+    list-style-type: none; 
+    font-family: "Rubik", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+
+.homee,.aboutme{
+    margin-right: 20px;
+    font-size: 16px;
+}
+
+.homee, .aboutme, .igmfacebook1,.imginstagram, .vertical{
+    display: inline-block;
+    padding-top: 5px;
+}
+
+.vertical{
+    margin-right: 20px;
+}
+
+.ig{
+    width: 20px;    
+}
+.fb{
+    width: 20px;
+}
+
+.igmfacebook1,.imginstagram{
+    margin-right: 10px;
+}
+
+.dot{
+    color: #ffbd59;
+}
+
+
+li a {
+    text-decoration: none;
+    
+}
 .portfolio{
     font-size: 30x;
     font-family: "Rubik Mono One", serif;
