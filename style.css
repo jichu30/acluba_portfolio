@@ -45,6 +45,9 @@
     font-optical-sizing: auto;
     font-weight: weight;
     font-style: normal;
+    display: flex;
+   
+ 
 }
 
 .homee,.aboutme{
@@ -52,9 +55,10 @@
     font-size: 16px;
 }
 
+
 .homee, .aboutme, .igmfacebook1,.imginstagram, .vertical{
     display: inline-block;
-    padding-top: 5px;
+    padding-top: 15px;
 }
 
 .vertical{
@@ -62,7 +66,8 @@
 }
 
 .ig{
-    width: 20px;    
+    width: 20px; 
+       
 }
 .fb{
     width: 20px;
@@ -70,6 +75,7 @@
 
 .igmfacebook1,.imginstagram{
     margin-right: 10px;
+
 }
 
 .dot{
@@ -82,14 +88,18 @@ li a {
     
 }
 .portfolio{
-    font-size: 30x;
+    font-size: 30px;
     font-family: "Rubik Mono One", serif;
     font-weight: 400;
     font-style: normal;
     color: #ffbd59;
     padding-left: 25px;
     padding-top: 20px;
+    width: 253px;
+
 }
+
+
 
 
 
